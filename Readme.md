@@ -13,14 +13,16 @@ This utility automates the process of collecting and emailing a weather report f
   - Sky conditions during holidays
 - Sends formatted email to recipient
 
----
 
 ##  Setup Instructions
 
-Download this repository. Open project and run batch scripts in this order:
+1.Download this repository. 
+2.Open project and create .env file. There is .env.example which u can use as a example. This app is made for gmail implementation. For that u need "EMAIL_PASS" which is a key u get on https://myaccount.google.com/apppasswords.
+3.After u configured your .env file u should install your app with Setup.bat. 
 
-1. Setup.bat
-2. Run.bat
+## Starting application
+
+After sucessfully setting up your app u can start it with Run.bat. Ctrl+c for shutting down.
 
 
 ### 1. Clone & install dependencies (For more controlled starting -> developers)

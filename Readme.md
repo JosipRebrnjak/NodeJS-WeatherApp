@@ -17,11 +17,24 @@ This utility automates the process of collecting and emailing a weather report f
 
 ##  Setup Instructions
 
-### 1. Clone & install dependencies
+Download this repository. Open project and run batch scripts in this order:
+
+1. Setup.bat
+2. Run.bat
+
+
+### 1. Clone & install dependencies (For more controlled starting -> developers)
 
 git clone https://github.com/JosipRebrnjak/node-weather-auto-report.git
 cd node-weather-auto-report
 npm install
+
 npm run build
 
-npm 
+npm start
+
+
+# TS commands
+
+## If u need to just transpile your ts 
+npx tsc 

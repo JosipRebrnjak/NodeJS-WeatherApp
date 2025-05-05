@@ -15,7 +15,11 @@ This utility automates the process of collecting and emailing a weather report f
 
 
 ##  Setup Instructions
+### Node.js setup
+As this is Node.js application u need Node.js runtime environement which u can download on this website https://nodejs.org/en/download
 
+
+### Application setup
 1.Download this repository. 
 2.Open project and create .env file. There is .env.example which u can use as a example. This app is made for gmail implementation. For that u need "EMAIL_PASS" which is a key u get on https://myaccount.google.com/apppasswords.
 3.After u configured your .env file u should install your app with Setup.bat. 
